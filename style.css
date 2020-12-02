@@ -1,0 +1,8 @@
+.pagebutton {
+    border: 10px outset orange;
+    background-color: orange;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 25px;
+    color: black;
+}

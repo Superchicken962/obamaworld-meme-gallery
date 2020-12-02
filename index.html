@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Obamaworld Meme Gallery</title>
+<script>
+    function show(shown, hidden) {
+      document.getElementById(shown).style.display='block';
+      document.getElementById(hidden).style.display='none';
+      return false;
+    }
+    </script>
+    </head>
+    <body>
+    <!--Page 1-->
+<div id="Page1">
+
+
+<h1>Template:</h1>
+<img src="this.png" width="15%">
+
+<h1>Winning Entry:</h1>
+<img src="that.png" width="15%">
+
+<br>
+<br>
+<a href="#" class="pagebutton" onclick="return show('Page2','Page1');">Next Page</a>
+</div>
+
+<!--Page 2-->
+
+<div id="Page2" style="display:none">
+<h1>Template:</h1>
+<img src="down.png" width="15%">
+    
+<h1>Winning Entry:</h1>
+<img src="obama among us.png" width="15%">
+    
+<br>
+<br>
+<a href="#" class="pagebutton"  onclick="return show('Page1','Page2');">Previous Page</a>
+<a href="#" class="pagebutton"  onclick="return show('Page3','Page2');">Next Page</a>
+</div>
+
+<!--Page 3-->
+
+<div id="Page3" style="display:none">
+<h1>Template:</h1>
+<img src="cheese.png" width="15%">
+        
+<h1>Winning Entry:</h1>
+<img src="e1.jpg" width="15%">
+        
+<br>
+<br>
+<a href="#" class="pagebutton"  onclick="return show('Page2','Page3');">Previous Page</a>
+<a href="#" class="pagebutton"  onclick="return show('Page4','Page3');">Next Page</a>
+</div>
+
+<!--Page 4-->
+
+<div id="Page4" style="display:none">
+<h1>Template:</h1>
+<img src="john.png" width="15%">
+            
+<h1>Winning Entry:</h1>
+<img src="j.png" width="15%">
+            
+<br>
+<br>
+<a href="#" class="pagebutton"  onclick="return show('Page3','Page4');">Previous Page</a>
+<a href="#" class="pagebutton"  onclick="return show('Page5','Page4');">Next Page</a>
+</div>
+
+<!--Page 5-->
+
+<div id="Page5" style="display:none">
+<h1>Template:</h1>
+<img src="oil.png" width="15%">
+
+<h1>Winning Entry:</h1>
+<video width="15%" controls>
+<source src="the.mp4" type="video/mp4">
+</video>
+
+<br>
+<br>
+<a href="#" class="pagebutton"  onclick="return show('Page4','Page5');">Previous Page</a>
+</div>
+
+
+</body>
+</body>
+</html>
